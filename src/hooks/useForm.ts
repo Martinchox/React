@@ -16,14 +16,6 @@ export const useForm =  <T extends FormValues> (initialValues : T)=>{
     };
 
 
-    const resetForm = ()=>{
-        setValues(initialValues)
-    }
-
-    return {
-        values, 
-        handleChange,
-        resetForm,
-    }
+    
 
 }
